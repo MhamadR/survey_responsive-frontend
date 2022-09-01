@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloned Survey Responsive</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Follow Up Survey</h1>
+      </header>
+      <main>
+        <form action="#">
+          <section>
+            <div class="block0">
+              <p>When did you use our service?</p>
+              <p>Name of product or service</p>
+              <input type="date" id="date" name="date" />
+              <input type="text" name="text" />
+              <label for="date"><span>Date</span></label>
+            </div>
+          </section>
+          <section>
+            <p>Overall, how satisfied are you with the product or service?</p>
+            <div class="block">
+              <div>
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="VerySatisfied"
+                  value="Very satisfied"
+                />
+                <label for="VerySatisfied">Very satisfied</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  value="Satisfied"
+                  id="Satisfied"
+                />
+                <label for="Satisfied">Satisfied</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  value="Neutral"
+                  id="Neutral"
+                />
+                <label for="Neutral">Neutral</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  value="Unsatisfied"
+                  id="Unsatisfied"
+                />
+                <label for="Unsatisfied">Unsatisfied</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  value="Very unsatisfied"
+                  id="Very unsatisfied"
+                />
+                <label for="Very unsatisfied">Very unsatisfied</label><br />
+              </div>
+              <div>
+                <input type="radio" name="satisfaction" value="N/A" id="N/A" />
+                <label for="N/A">N/A</label><br />
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>Did our product or service meet your expectations?</p>
+            <div class="block">
+              <div>
+                <input type="radio" name="expectation" value="Yes" id="Yes" />
+                <label for="Yes">Yes</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="expectation"
+                  value="No"
+                  id="No"
+                  checked
+                />
+                <label for="No">No</label><br />
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>Would you recommend this product or service to a friend?</p>
+            <div class="block">
+              <div>
+                <input type="radio" name="recommendation" value="Yes" id="Y" />
+                <label for="Y">Yes</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="recommendation"
+                  value="No"
+                  id="N"
+                  checked
+                />
+                <label for="N">No</label><br />
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>
+              What aspect of the product or service were you most satisfied by?
+            </p>
+            <div class="block">
+              <div>
+                <input
+                  type="radio"
+                  name="mostSat"
+                  value="Quality"
+                  id="Quality"
+                />
+                <label for="Quality">Quality</label><br />
+              </div>
+              <div>
+                <input type="radio" name="mostSat" value="Price" id="Price" />
+                <label for="Price">Price</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="mostSat"
+                  value="Customer service"
+                  id="CustomerService"
+                />
+                <label for="CustomerService">Customer service</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="mostSat"
+                  value="Installation or first use experience"
+                  id="install"
+                />
+                <label for="install">Installation or first use experience</label
+                ><br />
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>
+              What aspect of the product or service were you least satisfied by?
+            </p>
+            <div class="block">
+              <div>
+                <input type="radio" name="leastSat" value="Quality" id="Qual" />
+                <label for="Qual">Quality</label><br />
+              </div>
+              <div>
+                <input type="radio" name="leastSat" value="Price" id="Prices" />
+                <label for="Prices">Price</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="leastSat"
+                  value="Customer service"
+                  id="CustomersService"
+                />
+                <label for="CustomersService">Customer service</label><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="leastSat"
+                  value="Installation or first use experience"
+                  id="installs"
+                />
+                <label for="installs"
+                  >Installation or first use experience</label
+                ><br />
+              </div>
+            </div>
+          </section>
+          <section class="comments">
+            <p>Additional comments:</p>
+            <textarea
+              class="textBox"
+              name="comment"
+              rows="5"
+              placeholder="Type here..."
+            ></textarea>
+          </section>
+          <input type="submit" class="submitBtn" />
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
